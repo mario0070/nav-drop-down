@@ -1,0 +1,148 @@
+
+body{
+    background: tomato;
+}
+
+
+nav{
+    background-color: aquamarine;
+    padding: 2px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+  
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+   
+}
+
+.drop,.drop1,.drop2,.drop3,.inputs,.input{
+    display: none;
+}
+
+li:hover {
+    transform: scale(1.1);
+    
+}
+
+.active,li:hover{
+    background-color: tomato;
+    color: aliceblue;
+    transition: 0.3s;
+    border-radius: 0.5em;
+}
+
+li:hover .drop{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: 0em;
+    margin-left: 0px;
+    padding: 15px;
+    border-radius: 1em;
+    text-align:left;
+}
+
+.che:hover .drop1{
+    display: inline;
+    gap:5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-bottom: 10em;
+    margin-left: 0.5em;
+    padding: 2px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: left;
+}
+
+.more:hover .drop2{
+    display: inline;
+    gap:5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-bottom: 10em;
+    margin-left: 1.5em;
+    padding: 2px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: left;
+}
+
+.skills:hover .drop3{
+    display: inline;
+    gap:5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-bottom: 10em;
+    margin-left: 1.5em;
+    transition:1.5s;
+    padding: 2px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: left;
+}
+
+.email:hover .inputs{
+    display: inline;
+    gap:5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-bottom: 10em;
+    margin-left: 0.5em;
+    transition:1.5s;
+    padding: 8px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: left;
+}
+
+.phone:hover .input{
+    display: inline;
+    gap:5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-bottom: 10em;
+    margin-left: 0.5em;
+    transition:1.5s;
+    padding: 8px;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: left;
+}
+
+
+.drop,.drop1,.drop2,.drop3,.inputs,.input{
+    padding: 20px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.drop li:last-child{
+    border-bottom: none;
+}
+
+.drop li{
+    padding: 4px;
+    transition: 0.5s;
+    
+}
+
+li{
+    transition: 0.5s;
+}
+
+
+form input,button{
+    margin: 5px;
+}
