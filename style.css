@@ -7,6 +7,10 @@ body{
 nav{
     background-color: aquamarine;
     padding: 2px;
+    border-radius: 1em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
 }
 
 ul{
