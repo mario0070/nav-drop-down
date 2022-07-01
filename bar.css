@@ -1,0 +1,159 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:linear-gradient(aquamarine,tomato,black) ;
+}
+
+.hr{
+    background-color: tomato;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: .5em;
+    background:linear-gradient(tomato,aquamarine,black) ;
+    padding: 1em;
+    border-radius: 1em;
+    border: 4px solid tomato;
+    transition: .5s;
+    color: black;
+
+}
+
+.name:hover{
+    background-color: aquamarine;
+    transition: .5s;
+    transform: scale(0.8);
+}
+
+a{
+    text-decoration: none;
+    color: tomato;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+
+img{
+    width: 200px;
+    height: 250px;
+    float: right;
+    border-radius: 9em;
+    margin: 1em;
+    border: 10px solid black;
+}
+
+li{
+    list-style-type: none;
+    margin: 1em;
+    padding-top: 3em;
+    
+}
+/* 
+.active-nav{
+    margin-left: 0px;
+} 
+
+ .active-cont{
+    margin-left: 250px;
+} */
+
+.navbar.valid{
+    margin: 0px;
+    transition: 1s;
+}
+
+.page.valid{
+    margin-left: 250px;
+}
+
+.last.valid{
+    margin-left: 255px;
+}
+
+
+
+.navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color:black ;
+    transition: 0.4s;
+}
+
+a:active,
+a:focus,
+a:hover{
+    background-color: tomato;
+    color: black;
+    padding: 1em;
+    transition: .5s;
+    border: 2px solid aquamarine;
+    border-radius: 1em;
+}
+
+
+ .none{
+    display: none;
+    
+  
+}
+
+
+
+.none.valid{
+    display: flex;
+    transition: 1s;
+    border-radius: 2em;
+    background:linear-gradient(tomato,aquamarine,black) ;
+   
+} 
+
+button{
+    margin: 2em;
+    padding: 2em;
+    border-radius: 1em;
+    background:linear-gradient(tomato,aquamarine,black) ;
+    color: black;
+    font-weight: 900;
+    width: 20%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: aquamarine;
+    color: black;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+h1,p{
+    line-height: 2em;
+    margin: 2em;
+    font-size: 20px;
+} 
+
+
+.page{
+    transition: .5s;
+}
+
+footer{
+    background-color: whitesmoke;
+    margin: 1em;
+    padding: -1em;
+    margin-left: 0px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
